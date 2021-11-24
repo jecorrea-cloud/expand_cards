@@ -49,6 +49,8 @@ body {
 
 .panel.active h3 {
   opacity: 1;
+  /*To avoid the panel transition to be abrupt*/
+  transition: opacity 0.3s ease-in 0.4s;
 }
 
 /*Media query to show 3 instead of 5 if the screen is to small*/
